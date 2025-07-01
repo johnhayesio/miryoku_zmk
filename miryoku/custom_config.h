@@ -8,6 +8,9 @@
 #define MIRYOKU_TAP_QWERTY
 #define MIRYOKU_EXTRA_QWERTY
 
+/* A tiny helper – Hyper = Cmd+Ctrl+Opt+Shift */
+#define HYPR  LC(LA(LG(LSHFT)))
+
 /* 2. Hyper (⌘⌃⌥⇧) on A (left pinky home) and ' (right pinky home)  */
 #define MIRYOKU_MAPPING_LEFTPINKY_HOME    &mt HYPR A
 #define MIRYOKU_MAPPING_RIGHTPINKY_HOME   &mt HYPR QUOT
