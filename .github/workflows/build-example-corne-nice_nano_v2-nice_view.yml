@@ -10,13 +10,3 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
-      alphas: '["qwerty"]'
-      extra: '["qwerty"]'
-      tap: '["qwerty"]'
-      custom_config: |
-        #define HYPR LC(LA(LG(LSHFT)))
-        #define MIRYOKU_MAPPING_LEFTPINKY_HOME &mt HYPR A
-        #define MIRYOKU_MAPPING_RIGHTPINKY_HOME &mt HYPR QUOT
-        #define MIRYOKU_MAPPING_LEFTINDEX_HOME &mt LGUI G
-        #define MIRYOKU_MAPPING_RIGHTINDEX_HOME &mt LGUI H
-        #define MIRYOKU_MAPPING_NUM_RIGHTPINKY_BOTTOM &kp NONUS_HASH
