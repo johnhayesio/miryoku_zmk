@@ -13,3 +13,4 @@ jobs:
       alphas: '["qwerty"]'
       extra: '["qwerty"]'
       tap: '["qwerty"]'
+      nav: '["vi"]'
