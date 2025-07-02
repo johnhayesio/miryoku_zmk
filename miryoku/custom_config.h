@@ -6,7 +6,7 @@
 #pragma once
 
 /* helpers */
-#define U_MT_HYPR(key) &mt HYPR key          /* true Hyper tap-hold */
+#define U_MT_HYPR(key) &mt LHYPR key          /* true Hyper tap-hold */
 #define U_SECT         &kp LA(N6)            /* Alt+6 = § on macOS */
 
 /* Base layer (40 tokens, commas matter) */
