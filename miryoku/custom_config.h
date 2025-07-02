@@ -3,6 +3,9 @@
 
 // miryoku/custom_config.h – Corne, QWERTY, Hyper on G/H, § on Num-/
 // ------------------------------
+#include <dt-bindings/zmk/modifiers.h>      /* gives us MOD_LCTL etc.   */
+#define LHYPER (MOD_LCTL|MOD_LALT|MOD_LSFT|MOD_LGUI)
+
 #pragma once
 
 /* helpers */
